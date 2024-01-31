@@ -1,0 +1,168 @@
+
+   
+   .logo__mi{
+    width: 32px;
+}
+
+
+@media screen and (max-width:1024px) {
+    #right-nav-icons{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        position: absolute;
+        right: 100px;
+        top: 7px;
+    } 
+}
+.nav-link{
+    color: black;
+    
+}
+.nav-link:hover{
+    color: orangered;
+    border-bottom: 2px solid orangered; 
+    
+}
+#right-nav-icons .nav-link:hover{
+    color: black;
+    border-bottom: transparent;
+}
+.logo__mi:hover .logo__home{
+    transform:translate(-110px) ;
+    transition: ease-in-out .5s;
+
+}
+.carousel-caption{
+    right: auto;
+    left: 10%;
+    text-align: left;
+    bottom: auto;
+    top: 35%;
+    line-height: 10px;
+
+   }
+
+   .carousel-caption h5{
+    font-size: 2rem;
+   }  
+  .content-img-captions{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center
+  }
+  .content-img-captions h1{
+    font-size: 1.8rem;
+    color: white;
+  } 
+  .content-img-captions h4 a, .content-img-captions-laptop h4 a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+  }
+  .content-img-captions h4 a:hover,.content-img-captions-laptop h4 a:hover {
+    text-decoration: underline;
+
+  }
+.content-img-captions-laptop{
+  position: absolute;
+  transform: translate(-29%);
+  text-align: center;
+  top: 10%;
+left:30%
+  
+}
+.content-img-captions-laptop h1{
+  font-size: 1.6rem;
+  color: white;
+}  
+.trimmer h1{
+  color: black;
+}
+.trimmer h4 a, .trimmer h4 i{
+  color: rgb(248, 112, 7);
+}
+.box-shadow:hover{
+  box-shadow: 2px 2px 4px 2px rgb(0,0,0,0.3);
+}
+.box-link{
+  cursor: pointer;
+}
+.content-bg{
+  background-color:#f2f2f2;
+}
+.text-dec-col{
+  text-decoration: none;
+  color: black;
+}
+.text-dec-col:hover{
+  text-decoration: underline ;
+  text-underline-offset:2px ;
+
+}
+@media screen and (max-width:720px){
+  .photo-1, .content-img-captions{
+    display: block;
+    width:100% ;
+    
+  }
+  .photo-2 {
+    display: flex;
+    width: auto; 
+    margin-top: 10px;
+  }
+  .photo-2-1{
+    width: 70%;
+    margin-right: 10px;
+
+  }
+  .service{
+    display: flex;
+    flex-direction: row;
+    
+  }
+  
+}
+.footer h6{
+  color: white;
+  font-size: 1.;
+}
+.footer ul{
+  padding: 0px;
+}
+.footer ul li{
+  list-style: none;
+  line-height: 2rem;
+  
+
+}
+
+
+.footer ul li a{
+  text-decoration: none;
+  color: grey;
+  font-size: 14px;
+
+}
+.footer ul li a:hover{
+  text-decoration: underline;
+  color: white;
+}
+.footer a i{
+  color: rgb(155, 155, 155);
+  
+}
+.footer a i:hover{
+  color: white;
+
+
+}
+.subscrib{
+  border: solid 1px white;
+  border-radius: 10px;
+  width: 100%;
+  padding: 5px 0;
+  
+}
